@@ -1,0 +1,7 @@
+
+sueldo_base = int(input("ingrese el sueldo base: "))
+descuento_legal = sueldo_base * 0.20
+sueldo_liquido = sueldo_base - descuento_legal
+print(f"El sueldo base del empleado es: {sueldo_base}")
+print(f"El descuento legal es: {descuento_legal}")
+print(f"El sueldo líquido del empleado es: {sueldo_liquido}")
